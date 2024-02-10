@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)file:///C:/Users/muhammadbilal/OneDrive/Desktop/javascript/post%20app/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post App </title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <div class="container-fluid d-flex justify-content-center">
+
+
+        <div id="text-background" class="card" style="width: 30rem;">
+            <textarea id="text-area" class="post-text card-img-top"></textarea>
+
+            <div class="card-body" id="items">
+                <ul class="nav d-flex flex-wrap">
+                    <li class="nav-item"><input type="color" onchange="textColor()"></li>
+                    <li class="nav-item dec" onclick="decoration()">B</li>
+                    <li class="nav-item dec" onclick="decoration()">I</li>
+                    <li class="nav-item dec" onclick="decoration()">U</li>
+
+                    <li><img onclick="setBackground()" src="./index_files/2color.jpeg"></li>
+                    <li><img onclick="setBackground()" src="./index_files/REDBLAC.avif"></li>
+                    <li><img onclick="setBackground()" src="./index_files/BLUR.jpeg"></li>
+
+
+                    <li class="nav-item"> <input type="color" onchange="backGroundColor()"> </li>
+                    <li class="nav-item"><input type="range" onchange="changeTextSize()"></li>
+                    <button class="btn btn-primary" onclick="post()"> post </button>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./index_files/app.js.download"></script>
+
+
+
+</body></html>
